@@ -1,4 +1,0 @@
-from PIL import Image
-img = Image.open('proyimag1T.png').convert('L')
-img.show()
-img.save('imagen_EscalaGrises.png','png')
